@@ -1,0 +1,122 @@
+body {
+	padding: 0;
+	margin: 0;
+	overflow-y: scroll;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+#nav {
+	background-color: #222;
+	position: inline-block;
+}
+
+#nav-wrapper {
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+	position: inline-block;
+}
+
+#nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	color: #ccc;
+}
+
+#nav ul li {
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+}
+
+#nav ul li:hover{
+	background-color: #333;
+	
+}
+
+#nav ul li a:link {
+	color: white;
+	text-decoration: none;
+}
+
+#nav ul li a:visited{
+	color: #ccc;
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+}
+
+#nav ul li a:hover {
+	color: #ccc;
+	text-decoration: none; 
+}
+
+#nav ul li a:link {
+	color: #ccc;
+	text-decoration: none;
+}
+
+#nav ul li:hover ul {
+	display: block;
+}
+
+#nav ul ul {
+	display: none;
+	position: absolute;
+	background-color: #333;
+	border: 10px solid #222;
+	border-top: 0;
+	margin-left: -30px;
+	min-width: 200px;
+}
+
+#nav ul ul li {
+	display: block;
+}
+
+#nav ul ul li a:visited {
+	color: #ccc;
+}
+
+#restyle ul li {
+	color: red !important;
+}
+
+#nav ul ul li a:hover {
+	color: lightslategray;
+	font-size: 25px;
+
+}
+
+#ylestyle ul li a:hover {
+	color: purple;
+	font-size: 25px;
+	position: inline-block;
+}
+
+#restyle ul li {
+	color: red !important;
+	font-size: 25px;
+	position: inline-block
+}
+
+#yelstyle ul li a:hover {
+	color: yellow !important;
+	font-size: 25px;
+	position: inline-block;
+}
+
+#purstyle ul li a:hover {
+	color: purple;
+	font-size: 25px;
+	position: inline-block;
+}
+
+img {
+	margin-top: 0px;
+	width: 1155px;
+	height: auto;
+}
